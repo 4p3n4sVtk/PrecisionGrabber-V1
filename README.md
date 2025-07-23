@@ -39,7 +39,6 @@ pip install -r requirements.txt
 3. Inicie o servidor Flask:
    ```bash
 flask run
-
 ```
 4. Acesse a aplicação pelo navegador em:
    ```bash
