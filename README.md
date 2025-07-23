@@ -1,10 +1,9 @@
 # PrecisionGrabber-V1
 
-Este projeto foi desenvolvido como parte da disciplina de Investigação Digital, com o objetivo de construir uma aplicação capaz de registrar e armazenar logs de acesso de usuários em um banco de dados SQLite. A aplicação utiliza o Flask, um framework de desenvolvimento web em Python, e integra consultas geográficas de IPs para obter informações sobre a localização dos usuários, como país, cidade, ISP (provedor de internet) e coordenadas geográficas (latitude e longitude).
+## :warning: Alerta legais
 
-Além disso, a aplicação foi projetada para registrar informações sobre o **user-agent** (informações do navegador do usuário), o **referrer** (origem do acesso) e o **timestamp** (data e hora do acesso).
+Este projeto foi desenvolvido com fins educacionais e deve ser utilizado **apenas por pessoas que possuem pleno conhecimento das implicações legais e éticas de seus atos**. O uso inadequado deste software pode acarretar em consequências legais, e a responsabilidade pelo uso é inteiramente do usuário. A utilização deste projeto é estritamente restrita a **ambientes controlados e para fins de utilidade legal, como investigações digitais autorizadas**.
 
-A coleta de dados ocorre de forma assíncrona, utilizando uma tarefa em segundo plano para não impactar o desempenho da aplicação. Essa arquitetura de back-end visa melhorar a performance, processando os dados sem bloquear a execução de outras requisições.
 
 ## Principais Funcionalidades:
 
