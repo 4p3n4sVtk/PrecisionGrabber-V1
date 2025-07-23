@@ -32,14 +32,17 @@ A coleta de dados ocorre de forma assíncrona, utilizando uma tarefa em segundo 
    ```bash
    git clone https://github.com/4p3n4sVtk/PrecisionGrabber-V1
  ```
+
 2. Instale as dependências:
    ```bash
 pip install -r requirements.txt
  ```
+
 3. Inicie o servidor Flask:
    ```bash
 flask run
 ```
+
 4. Acesse a aplicação pelo navegador em:
    ```bash
 http://127.0.0.1:5000/
