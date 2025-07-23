@@ -44,3 +44,4 @@ flask run
 4. Acesse a aplicação pelo navegador em:
    ```bash
 http://127.0.0.1:5000/
+```
